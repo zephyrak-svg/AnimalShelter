@@ -3,6 +3,11 @@ package animalshelter;
 public class Cat extends Animal {
     private String color;
 
+    @Override
+    public void makeSound() {
+        System.out.println("Meow");
+    }
+
     public Cat(String name, int age, String color) {
         super(name, "Cat", age);
         this.color = color;

@@ -1,7 +1,9 @@
 package animalshelter;
 
-public class Animal {
+public abstract class Animal {
     private static int idGen = 1;
+
+    public abstract void makeSound();
 
     private int id;
     private String name;

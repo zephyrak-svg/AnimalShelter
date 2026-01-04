@@ -30,14 +30,19 @@ public class Shelter {
         this.address = address;
     }
 
-    public boolean addAnimal(Animal animal) {
-        if (animal == null || count >= animals.length) {
-            return false;
+    public void addAnimal(Animal animal) throws ShelterException {
+        if (animal == null) {
+            throw new ShelterException("Animal is null");
         }
+
+        if (count >= animals.length) {
+            throw new ShelterException("Shelter is full");
+        }
+
         animals[count] = animal;
         count++;
-        return true;
     }
+
 
     public void listAnimals() {
         System.out.println("Animals in shelter:");
