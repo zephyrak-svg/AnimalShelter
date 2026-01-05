@@ -9,6 +9,7 @@ public class Main {
             Cat c1 = new Cat("Murka", 2, "Black");
             Dog d1 = new Dog("Rex", 4, "Shepherd");
 
+
             c1.makeSound();
             d1.makeSound();
 

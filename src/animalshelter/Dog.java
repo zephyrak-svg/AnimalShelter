@@ -8,6 +8,7 @@ public class Dog extends Animal {
         System.out.println("Woof");
     }
 
+
     public Dog(String name, int age, String breed) {
         super(name, "Dog", age);
         this.breed = breed;

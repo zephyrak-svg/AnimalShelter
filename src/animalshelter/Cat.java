@@ -8,6 +8,7 @@ public class Cat extends Animal {
         System.out.println("Meow");
     }
 
+
     public Cat(String name, int age, String color) {
         super(name, "Cat", age);
         this.color = color;

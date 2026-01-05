@@ -5,3 +5,4 @@ public class ShelterException extends Exception {
         super(message);
     }
 }
+

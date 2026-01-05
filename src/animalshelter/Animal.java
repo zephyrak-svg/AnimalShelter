@@ -5,6 +5,7 @@ public abstract class Animal {
 
     public abstract void makeSound();
 
+
     private int id;
     private String name;
     private String type;

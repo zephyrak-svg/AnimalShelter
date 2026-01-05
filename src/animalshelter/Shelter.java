@@ -14,6 +14,7 @@ public class Shelter {
         this.count = 0;
     }
 
+
     public String getName() {
         return name;
     }
